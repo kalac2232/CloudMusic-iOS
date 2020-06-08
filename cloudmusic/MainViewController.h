@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  cloudmusic
 //
 //  Created by 郭皓楠 on 2020/5/30.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MainViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

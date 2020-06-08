@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D6298AA2482B0D2009AB366 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6298A92482B0D2009AB366 /* MainViewController.m */; };
+		6D6298AE248397B6009AB366 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6298AD248397B6009AB366 /* UIColor+Hex.m */; };
+		6D6298B22483A0DC009AB366 /* DiscoveryMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6298B12483A0DC009AB366 /* DiscoveryMainController.m */; };
+		6D6298B62483A116009AB366 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6298B52483A116009AB366 /* BaseViewController.m */; };
 		6D66AE952482970A000C0F47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D66AE942482970A000C0F47 /* AppDelegate.m */; };
 		6D66AE982482970A000C0F47 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D66AE972482970A000C0F47 /* SceneDelegate.m */; };
-		6D66AE9B2482970A000C0F47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D66AE9A2482970A000C0F47 /* ViewController.m */; };
-		6D66AE9E2482970A000C0F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D66AE9C2482970A000C0F47 /* Main.storyboard */; };
 		6D66AEA02482970E000C0F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D66AE9F2482970E000C0F47 /* Assets.xcassets */; };
 		6D66AEA32482970E000C0F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D66AEA12482970E000C0F47 /* LaunchScreen.storyboard */; };
 		6D66AEA62482970E000C0F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D66AEA52482970E000C0F47 /* main.m */; };
@@ -36,14 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D6298A82482B0D2009AB366 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6D6298A92482B0D2009AB366 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6D6298AC248397B6009AB366 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6D6298AD248397B6009AB366 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		6D6298B02483A0DC009AB366 /* DiscoveryMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryMainController.h; sourceTree = "<group>"; };
+		6D6298B12483A0DC009AB366 /* DiscoveryMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryMainController.m; sourceTree = "<group>"; };
+		6D6298B42483A116009AB366 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6D6298B52483A116009AB366 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6D6298B724853E4F009AB366 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6D66AE902482970A000C0F47 /* cloudmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D66AE932482970A000C0F47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D66AE942482970A000C0F47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6D66AE962482970A000C0F47 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		6D66AE972482970A000C0F47 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		6D66AE992482970A000C0F47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6D66AE9A2482970A000C0F47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6D66AE9D2482970A000C0F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D66AE9F2482970E000C0F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D66AEA22482970E000C0F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D66AEA42482970E000C0F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +89,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D6298AB2483977C009AB366 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6D6298AC248397B6009AB366 /* UIColor+Hex.h */,
+				6D6298AD248397B6009AB366 /* UIColor+Hex.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6D6298AF24839F84009AB366 /* DiscoveryPage */ = {
+			isa = PBXGroup;
+			children = (
+				6D6298B02483A0DC009AB366 /* DiscoveryMainController.h */,
+				6D6298B12483A0DC009AB366 /* DiscoveryMainController.m */,
+			);
+			path = DiscoveryPage;
+			sourceTree = "<group>";
+		};
+		6D6298B32483A0FD009AB366 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6D6298B42483A116009AB366 /* BaseViewController.h */,
+				6D6298B52483A116009AB366 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		6D66AE872482970A000C0F47 = {
 			isa = PBXGroup;
 			children = (
@@ -104,17 +139,20 @@
 		6D66AE922482970A000C0F47 /* cloudmusic */ = {
 			isa = PBXGroup;
 			children = (
+				6D6298B32483A0FD009AB366 /* Base */,
+				6D6298AF24839F84009AB366 /* DiscoveryPage */,
+				6D6298AB2483977C009AB366 /* Utils */,
 				6D66AE932482970A000C0F47 /* AppDelegate.h */,
 				6D66AE942482970A000C0F47 /* AppDelegate.m */,
 				6D66AE962482970A000C0F47 /* SceneDelegate.h */,
 				6D66AE972482970A000C0F47 /* SceneDelegate.m */,
-				6D66AE992482970A000C0F47 /* ViewController.h */,
-				6D66AE9A2482970A000C0F47 /* ViewController.m */,
-				6D66AE9C2482970A000C0F47 /* Main.storyboard */,
 				6D66AE9F2482970E000C0F47 /* Assets.xcassets */,
 				6D66AEA12482970E000C0F47 /* LaunchScreen.storyboard */,
 				6D66AEA42482970E000C0F47 /* Info.plist */,
 				6D66AEA52482970E000C0F47 /* main.m */,
+				6D6298A82482B0D2009AB366 /* MainViewController.h */,
+				6D6298A92482B0D2009AB366 /* MainViewController.m */,
+				6D6298B724853E4F009AB366 /* PrefixHeader.pch */,
 			);
 			path = cloudmusic;
 			sourceTree = "<group>";
@@ -242,7 +280,6 @@
 			files = (
 				6D66AEA32482970E000C0F47 /* LaunchScreen.storyboard in Resources */,
 				6D66AEA02482970E000C0F47 /* Assets.xcassets in Resources */,
-				6D66AE9E2482970A000C0F47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D66AE9B2482970A000C0F47 /* ViewController.m in Sources */,
 				6D66AE952482970A000C0F47 /* AppDelegate.m in Sources */,
+				6D6298AE248397B6009AB366 /* UIColor+Hex.m in Sources */,
 				6D66AEA62482970E000C0F47 /* main.m in Sources */,
 				6D66AE982482970A000C0F47 /* SceneDelegate.m in Sources */,
+				6D6298AA2482B0D2009AB366 /* MainViewController.m in Sources */,
+				6D6298B62483A116009AB366 /* BaseViewController.m in Sources */,
+				6D6298B22483A0DC009AB366 /* DiscoveryMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +346,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6D66AE9C2482970A000C0F47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D66AE9D2482970A000C0F47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6D66AEA12482970E000C0F47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,8 +471,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9JPF49U4WP;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/cloudmusic/PrefixHeader.pch";
 				INFOPLIST_FILE = cloudmusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,7 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kalac.cloudmusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,8 +492,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9JPF49U4WP;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/cloudmusic/PrefixHeader.pch";
 				INFOPLIST_FILE = cloudmusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,7 +505,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kalac.cloudmusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
