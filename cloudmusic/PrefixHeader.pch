@@ -12,6 +12,11 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+#ifdef __OBJC__
+    #import "UIColor+Hex.h"
+    #import "UIView+Frame.h"
+#endif
+
 
 /**** UI尺寸 ****/
 //获取屏幕宽度与高度
@@ -29,4 +34,7 @@
 #define IS_IPHONEX_SET  (DT_IS_IPHONEX_XS||DT_IS_IPHONEXR_XSMax)
 // 顶部导航栏高度
 #define kNavigationBarHeight    44.f
+
+
+
 #endif /* PrefixHeader_pch */

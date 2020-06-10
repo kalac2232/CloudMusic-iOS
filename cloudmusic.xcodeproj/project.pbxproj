@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D50D26D248FC45F00C3331B /* BannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D50D26C248FC45F00C3331B /* BannerViewCell.m */; };
 		6D6298AA2482B0D2009AB366 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6298A92482B0D2009AB366 /* MainViewController.m */; };
 		6D6298AE248397B6009AB366 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6298AD248397B6009AB366 /* UIColor+Hex.m */; };
 		6D6298B22483A0DC009AB366 /* DiscoveryMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6298B12483A0DC009AB366 /* DiscoveryMainController.m */; };
@@ -18,6 +19,8 @@
 		6D66AEA62482970E000C0F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D66AEA52482970E000C0F47 /* main.m */; };
 		6D66AEB02482970E000C0F47 /* cloudmusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D66AEAF2482970E000C0F47 /* cloudmusicTests.m */; };
 		6D66AEBB2482970E000C0F47 /* cloudmusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D66AEBA2482970E000C0F47 /* cloudmusicUITests.m */; };
+		6D82E6882490ED3800DA7E9B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D82E6872490ED3800DA7E9B /* UIView+Frame.m */; };
+		D2753EEEBEEA845891C8D53F /* libPods-cloudmusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4CDD27A3DFCBC3C7E3A867 /* libPods-cloudmusic.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4CDD27A3DFCBC3C7E3A867 /* libPods-cloudmusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cloudmusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D50D26B248FC45F00C3331B /* BannerViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewCell.h; sourceTree = "<group>"; };
+		6D50D26C248FC45F00C3331B /* BannerViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewCell.m; sourceTree = "<group>"; };
 		6D6298A82482B0D2009AB366 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		6D6298A92482B0D2009AB366 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6D6298AC248397B6009AB366 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 		6D66AEB62482970E000C0F47 /* cloudmusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudmusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D66AEBA2482970E000C0F47 /* cloudmusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cloudmusicUITests.m; sourceTree = "<group>"; };
 		6D66AEBC2482970E000C0F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D82E6862490ED3800DA7E9B /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6D82E6872490ED3800DA7E9B /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		811DCC61761DFED91DFCE25E /* Pods-cloudmusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudmusic.debug.xcconfig"; path = "Target Support Files/Pods-cloudmusic/Pods-cloudmusic.debug.xcconfig"; sourceTree = "<group>"; };
+		C09253BEBF902CE32FE580BD /* Pods-cloudmusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudmusic.release.xcconfig"; path = "Target Support Files/Pods-cloudmusic/Pods-cloudmusic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2753EEEBEEA845891C8D53F /* libPods-cloudmusic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,11 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D944DEF29400D97CACDB0FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				811DCC61761DFED91DFCE25E /* Pods-cloudmusic.debug.xcconfig */,
+				C09253BEBF902CE32FE580BD /* Pods-cloudmusic.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6D6298AB2483977C009AB366 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				6D6298AC248397B6009AB366 /* UIColor+Hex.h */,
 				6D6298AD248397B6009AB366 /* UIColor+Hex.m */,
+				6D82E6862490ED3800DA7E9B /* UIView+Frame.h */,
+				6D82E6872490ED3800DA7E9B /* UIView+Frame.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -103,6 +126,8 @@
 			children = (
 				6D6298B02483A0DC009AB366 /* DiscoveryMainController.h */,
 				6D6298B12483A0DC009AB366 /* DiscoveryMainController.m */,
+				6D50D26B248FC45F00C3331B /* BannerViewCell.h */,
+				6D50D26C248FC45F00C3331B /* BannerViewCell.m */,
 			);
 			path = DiscoveryPage;
 			sourceTree = "<group>";
@@ -123,6 +148,8 @@
 				6D66AEAE2482970E000C0F47 /* cloudmusicTests */,
 				6D66AEB92482970E000C0F47 /* cloudmusicUITests */,
 				6D66AE912482970A000C0F47 /* Products */,
+				2D944DEF29400D97CACDB0FD /* Pods */,
+				C48E958B4CBBCB8D7CF98050 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +202,14 @@
 			path = cloudmusicUITests;
 			sourceTree = "<group>";
 		};
+		C48E958B4CBBCB8D7CF98050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E4CDD27A3DFCBC3C7E3A867 /* libPods-cloudmusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D66AEBF2482970E000C0F47 /* Build configuration list for PBXNativeTarget "cloudmusic" */;
 			buildPhases = (
+				9E711D59F8AC7A1087628BC3 /* [CP] Check Pods Manifest.lock */,
 				6D66AE8C2482970A000C0F47 /* Sources */,
 				6D66AE8D2482970A000C0F47 /* Frameworks */,
 				6D66AE8E2482970A000C0F47 /* Resources */,
@@ -299,6 +335,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E711D59F8AC7A1087628BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cloudmusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D66AE8C2482970A000C0F47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -307,7 +368,9 @@
 				6D66AE952482970A000C0F47 /* AppDelegate.m in Sources */,
 				6D6298AE248397B6009AB366 /* UIColor+Hex.m in Sources */,
 				6D66AEA62482970E000C0F47 /* main.m in Sources */,
+				6D82E6882490ED3800DA7E9B /* UIView+Frame.m in Sources */,
 				6D66AE982482970A000C0F47 /* SceneDelegate.m in Sources */,
+				6D50D26D248FC45F00C3331B /* BannerViewCell.m in Sources */,
 				6D6298AA2482B0D2009AB366 /* MainViewController.m in Sources */,
 				6D6298B62483A116009AB366 /* BaseViewController.m in Sources */,
 				6D6298B22483A0DC009AB366 /* DiscoveryMainController.m in Sources */,
@@ -469,6 +532,7 @@
 		};
 		6D66AEC02482970E000C0F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811DCC61761DFED91DFCE25E /* Pods-cloudmusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -490,6 +554,7 @@
 		};
 		6D66AEC12482970E000C0F47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09253BEBF902CE32FE580BD /* Pods-cloudmusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
